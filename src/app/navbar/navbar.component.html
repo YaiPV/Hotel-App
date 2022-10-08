@@ -1,162 +1,31 @@
-<nav class="navbar navbar-expand-lg bg-warning justify-content-center">
+<nav class="navbar navbar-expand-lg bg-warning">
     <div class="container-fluid">
       <a class="navbar-brand" routerLink="">TRIP FOR ALL</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" routerLink="/Ingreso" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Ingreso
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" routerLink="/Registro">Registro</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" routerLink="/Ingreso">Ingresar</a></li>
-                </ul>
-              </li>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center w-100"> 
+          
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" routerLink="/check-in" >Check-in</a>
+            <a class="nav-link" aria-current="page" routerLink="/registro" >Registro</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" routerLink="/ingreso" >Ingreso</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="/Reservas">Reservas</a>
+            <a class="nav-link" aria-current="page" routerLink="/check-in" >Check-in</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="/Restaurante">Restaurante</a>
+            <a class="nav-link" routerLink="/reservas">Reservas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/restaurante">Restaurante</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <section id="intro">
-    <div class="container-lg">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-md-5 text-center text-md-start word">
-                <h1>
-                    <div class="display-2">Servicios de hotel desde su celular.</div>
-                    <div class="display-5 text-muted text"><p>TRIP FOR ALL es una aplicación que permite controlar 
-                        de forma rápida y sencilla todos los servicios ofrecidos por un hotel tales como registro de usuario, 
-                        check-in y check-out y servicio de menú a la carta desde la comodidad de su celular.</p></div>
-                </h1>
-            </div>
-           
-            <div class="col-md-5 text-center d-none d-md-block">
-                <img class="img-fluid" src="./assets/fotos/logo.jpg" alt="logo">
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="pricing" class="bg-light mt-5">
-<div class="container-lg">
-<div class="text-center plans">
-<h2 class="subtitulo">Servicios</h2>
-<p class="lead text-muted">Escoja el plan de su preferencia.</p>
-</div>
-
-<div class="row my-5 align-items-center justify-content-center g-0">
-    <div class="col-8 col-lg-4 col-xl-3">
-        <div class="card border-0">
-            <div class="card-body text-center py-4">
-                <h4 class="card-title">Ingrese a su cuenta</h4>
-                <img class="img-fluid" src="../../assets/fotos/registro.png" alt="servicio">
-                <p class="color">Ingrese a su 
-                  cuenta o regístrese en la parte superior de la página.</p>
-                    <a href="#" class="btn btn-outline-primary btn-lg mt-3">Ingrese</a>
-            </div>
-        </div>
-    </div>
-   
-    <div class="col-9 col-lg-4">
-        <div class="card border-primary border-2">
-           <div class="card-header text-center text-primary"> Más solicitado</div> 
-            <div class="card-body text-center py-5">
-                <h4 class="card-title">Restaurante</h4>
-                <img class="img-fluid" src="../../assets/fotos/comida.png" alt="servicio">
-                <p class="card-text mx-5 text-muted d-none d-lg-block">Seleccione el plato que desee 
-                  y éste se le será entregado en su habitación.</p>
-                    <a href="#" class="btn btn-outline-primary btn-lg mt-3">Ingrese</a>
-            </div>
-    
-        </div>
-    </div>
-
-    <div class="col-8 col-lg-4 col-xl-3">
-        <div class="card border-0">
-            <div class="card-body text-center py-4">
-                <h4 class="card-title">Check-in y Check-out</h4>
-                <img class="img-fluid" src="../../assets/fotos/dispositivos.png" alt="servicio">
-                <p class="color"> Haga su reserva (check-in) en cualquiera de sus dispositivos
-                  sin necesidad de estar presente. Haga su check-out desde cualquier lugar.</p>
-                    <a href="#" class="btn btn-outline-primary btn-lg mt-3">Ingrese</a>
-            </div>
-        </div>
-    </div>
-</div>
-</div> 
-</section>
-
-
-
-<footer class="text-center text-lg-start bg-light text-muted foot">
  
-  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-    
-    <div class="me-5 d-none d-lg-block">
-      <span>Conéctate con nosotros en nuestras redes sociales:</span>
-    </div>
-   
-    <div>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-google"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-  
-  </section>
-  
-  <section class="">
-    <div class="container text-center text-md-start mt-5">
-     <div class="row mt-3">
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-         <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Sugerencias
-          </h6>
-          <p>
-            En caso de algún reclamo o cambio puede contactarnos
-            a los datos brindados al pie de la página.
-          </p>
-        </div>
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <img class="img-fluid picture" src="../../assets/fotos/logo2.jpg" alt="servicio">
-        </div>
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
-          <p><i class="fas fa-home me-3"></i> Bogotá, CO. 1001234</p>
-          <p>
-            <i class="fas fa-envelope me-3"></i>
-            tripforall@example.com
-          </p>
-          <p><i class="fas fa-phone me-3"></i> + 57 234 567 88</p>
-          <p><i class="fas fa-print me-3"></i> + 57 234 567 89</p>
-        </div>
-      </div>
-    </div>
-  </section>
-</footer>
+

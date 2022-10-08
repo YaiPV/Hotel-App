@@ -10,8 +10,11 @@ import { IngresoComponent } from './ingreso/ingreso.component';
 import { CheckInComponent } from './check-in/check-in.component';
 import { RestauranteComponent } from './restaurante/restaurante.component';
 import { ReservasComponent} from './reservas/reservas.component';
-import { RouterModule } from '@angular/router';
 import { RegistroComponent } from './registro/registro.component';
+import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
+import { ServiciosComponent } from './servicios/servicios.component';
+import { BannerComponent } from './banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -22,19 +25,16 @@ import { RegistroComponent } from './registro/registro.component';
     RestauranteComponent,
     ReservasComponent,
     RegistroComponent,
+    HomeComponent,
+    FooterComponent,
+    ServiciosComponent,
+    BannerComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    RouterModule.forRoot([
-      {path: 'navbar', component:NavbarComponent},
-      {path: 'ingreso', component:IngresoComponent},
-      {path: 'registro', component:RegistroComponent},
-      {path: 'check-in', component:CheckInComponent},
-      {path: 'reservas', component:ReservasComponent},
-      {path: 'restaurante', component:RestauranteComponent},
-    ])
+   
      
   ],
   providers: [],
