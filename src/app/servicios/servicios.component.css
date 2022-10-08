@@ -1,0 +1,21 @@
+
+    .btn {
+      background:rgb(225, 169, 63) ;
+    }
+    
+  
+    .card{
+      color: rgb(225, 169, 63);
+        display: flex;
+        margin: 100px 0px 0px 0px;
+          
+    }
+  
+    .color{
+      color: black;
+    }
+  
+  .subtitulo{
+    padding-top: 15vh;
+    color: #e1a93f;
+  }

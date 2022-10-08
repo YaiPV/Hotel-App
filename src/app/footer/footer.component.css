@@ -1,3 +1,12 @@
 .social img{
     width: 50px;
 }
+
+.padding{
+    padding-top: 20vh;
+  }
+  
+  .foot{
+    padding-top: 35vh;
+    padding-bottom: 15vh;
+  }
