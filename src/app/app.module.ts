@@ -15,6 +15,7 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 import { BannerComponent } from './banner/banner.component';
+import { BookCardComponent } from './book-card/book-card.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { BannerComponent } from './banner/banner.component';
     FooterComponent,
     ServiciosComponent,
     BannerComponent,
+    BookCardComponent,
   ],
   imports: [
     BrowserModule,
