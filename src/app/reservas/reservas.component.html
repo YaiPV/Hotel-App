@@ -1,0 +1,40 @@
+<div class="main">
+    <div class="container">
+      <h2>Formulario de reserva</h2>
+      <form action="mail.php" enctype="multipart/form-data" method="post" name="formulario_html5" autocomplete="off">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" class="cajas">
+      
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" class="cajas">
+  
+        <label for="web-site">Web Site</label>
+        <input type="url" name="web-site" id="web-site" class="cajas">       
+  
+        <label for="telefono">Teléfono</label>
+        <input type="number" name="telefono" id="telefono" class="cajas">
+        
+        <label for="llegada">Fecha y hora de llegada</label>
+        <input type="datetime-local" id="llegada" name="fecha-hora-llegada" class="cajas">
+        
+     
+        <label for="estadia">Días de permanencia</label>
+       <select id="estadia" class="cajas">
+         <option value="1" label="1">
+         <option value="2" label="2">
+         <option value="3" label="3">
+         <option value="4" label="4">
+         <option value="5" label="5">
+       
+       </select>
+        
+       <label for="estudios">Nivel de estudios</label> 
+       <input type="range" id="estudios" name="estudios">
+        <input type="submit" value="enviar" name="submit" class="btn">
+  
+  </form>
+  
+        
+  
+    </div>
+  </div>
