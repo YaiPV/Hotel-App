@@ -7,13 +7,15 @@ import { RegistroComponent } from './registro/registro.component';
 import { ReservasComponent } from './reservas/reservas.component';
 import { RestauranteComponent } from './restaurante/restaurante.component';
 
+import { AuthGuard } from './auth.guard';
+
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'registro', component: RegistroComponent },
   { path: 'ingreso', component: IngresoComponent},
   {path: 'check-in', component:CheckInComponent},
-  {path: 'reservas', component:ReservasComponent},
-  {path: 'restaurante', component:RestauranteComponent},
+  {path: 'reservas', component:ReservasComponent, canActivate:[AuthGuard]},
+  {path: 'restaurante', component:RestauranteComponent, canActivate:[AuthGuard]},
 ];
 
 @NgModule({

@@ -17,6 +17,13 @@ import { ServiciosComponent } from './servicios/servicios.component';
 import { BannerComponent } from './banner/banner.component';
 import { BookCardComponent } from './book-card/book-card.component';
 
+
+import { FormsModule } from '@angular/forms'; 
+import { HttpClientModule } from '@angular/common/http';
+
+import { AuthGuard } from './auth.guard';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,10 +43,12 @@ import { BookCardComponent } from './book-card/book-card.component';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
+    FormsModule,
+    HttpClientModule,
    
      
   ],
-  providers: [],
+  providers: [AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
