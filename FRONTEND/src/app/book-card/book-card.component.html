@@ -1,18 +1,15 @@
 <div class="menuCard">
     <div class="menuImage">
-      <img src="../../assets/fotos/Eat.png" alt="">
+      <img [src]="restaurants.plato_entrada" alt="">
     </div>
     <div class="description">
       <div class="labels">
-        <h4 class="menuName">Nombre Plato</h4>
-        <h4 class="menuPrice">$30.000</h4>
+        <h4 class="menuName">{{restaurants.plato_fuerte}}</h4>
+        <h4 class="menuPrice">{{ restaurants.valor | currency:"COP"}}</h4>
       </div>
       <div class="buttons">
         <button class="infoButton">
-          <img src="../../assets/fotos/001-info 1.png" alt="">
-        </button>
-        <button class="cartButton">
-          <img src="../../assets/fotos/001-shopping-cart 1.png" alt="">
+          <img src="" alt="">
         </button>
       </div>
     </div>

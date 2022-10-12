@@ -49,6 +49,16 @@ app.get('/', (req, res) => {
     })
 });
 
+const reservaRoutes = require('./routes/reserva.router');
+
+app.use('/api/reserva', reservaRoutes);
+app.get('/', (req, res) => {
+    res.json({
+        estado: true,
+        mensaje: 'funciona!'
+    })
+});
+
 // iniciar server
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
