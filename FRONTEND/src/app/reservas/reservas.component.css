@@ -16,13 +16,19 @@
   }
 
   .card{
-      display: flex;
-      margin: 280px 80px 250px 120px;  
-  }
-  
-  .caja {
     display: flex;
-    margin: 100px 100px 200px 200px !important;
-    width: 300rem;
-  
+    margin: 250px 0px 250px 200px;
+   
+}
+
+  .img {
+    display: flex;
+    width: 50vh !important;
+    height: 60vh !important;
+    margin: 290px 200px 200px 200px !important;
+    position: absolute !important;
+  }
+
+  .space {
+    padding-left: 15vh;
   }
