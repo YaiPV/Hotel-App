@@ -1,10 +1,14 @@
-<div class="row">
-  <div class="col-md-4 mx-auto">
+<div class="row space center">
+    <img 
+    src="../../assets/fotos/logo.jpg"
+    class="col-sm-5 float-sm-end img logobot" alt="logo">
+
+  <div class="col-md-4 mx-auto d-flex">
       <div class="card">
           <div class="card-header">
               REGISTRO 
           </div>
-          <div class="card-body">
+          <div class="card-body border-light shadow-lg">
               <form (submit)="registro()">
                   <div class="form-group">
                   <input type="text" [(ngModel)]="user.name" name="nombre" class="form-control" placeholder="nombre" required autofocus>
@@ -25,7 +29,7 @@
                       <input type="password" [(ngModel)]="user.password" name="password" class="form-control" placeholder="Password" required>
                   </div> <br>
                   <button class="btn btn-primary btn-block">
-                      SignUp
+                      Ingrese
                   </button>
               </form>
           </div>

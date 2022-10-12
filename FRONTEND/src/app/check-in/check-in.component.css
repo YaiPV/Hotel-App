@@ -1,88 +1,33 @@
-Hotel-App/src/app/check-in/check-in.component.css
-@JuanLaverde21
-JuanLaverde21 Modificacion Check Out
-Latest commit e3a0dc9 1 hour ago
- History
- 2 contributors
-@YaiPV@JuanLaverde21
-79 lines (68 sloc)  1.14 KB
 
-.row {
-    display: -ms-flexbox; 
-    display: flex;
-    -ms-flex-wrap: wrap; 
-    flex-wrap: wrap;
-    margin: 0 -16px;
-    margin-top: 10px;
-  }
-  
-  .col-25 {
-    -ms-flex: 25%; 
-    flex: 25%;
-  }
-  
-  .col-50 {
-    -ms-flex: 50%; 
-    flex: 50%;
-  }
-  
-  .col-75 {
-    -ms-flex: 75%; 
-    flex: 75%;
-  }
-  
-  .col-25,
-  .col-50,
-  .col-75 {
-    padding: 0 16px;
-  }
-  
-  .container {
-    background-color: #f2f2f2;
-    padding: 5px 20px 15px 20px;
-    border: 1px solid lightgrey;
-    border-radius: 3px;
-  }
-  
-  input[type=text] {
-    width: 100%;
-    margin-bottom: 20px;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-  }
-  
-  label {
-    margin-bottom: 10px;
-    display: block;
-  }
-  
   .btn {
-    background-color: #04AA6D;
     color: white;
-    padding: 12px;
-    margin: 10px 0;
-    border: none;
-    width: 100%;
-    border-radius: 3px;
-    cursor: pointer;
-    font-size: 17px;
+    background:rgb(225, 169, 63) ;
   }
   
+  .center {
+    text-align: center;
+  }
+  .boton {
+    border-color: white;
+    border-radius: 0.2rem;
+  }
+
   .btn:hover {
-    background-color: #45a049;
+    background-color: orange;
+  }
+
+  .card{
+      display: flex;
+      margin: 280px 80px 250px 120px;  
   }
   
-  span.price {
-    float: right;
-    color: grey;
-  }
+  .caja {
+    display: flex;
+    margin: 100px 100px 200px 200px !important;
+    width: 400rem;
   
-  @media (max-width: 800px) {
-    .row {
-      flex-direction: column-reverse;
-    }
-    .col-25 {
-      margin-bottom: 20px;
-    }
+  }
+
+  .end{
+    padding-left: 1rem;
   }

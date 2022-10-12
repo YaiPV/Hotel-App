@@ -6,28 +6,31 @@ nav {
   .btn {
     background:rgb(225, 169, 63) ;
   }
+
+  .btn:hover {
+    background-color: orange;
+  }
   
   .center {
     text-align: center;
   }
   .boton {
-    background: rgb(201, 199, 125);
     border-color: white;
     border-radius: 0.2rem;
   }
   
   .img {
     display: flex;
-    width: 80vh !important;
+    width: 60vh !important;
     height: 80vh !important;
-    margin: 200px 200px 100px 200px !important;
+    margin: 200px 250px 100px 200px !important;
     position: absolute !important;
     right: 10px !important;
   }
   
   .card{
       display: flex;
-      margin: 100px 0px 0px 0px;
+      margin: 100px 0px 250px 0px;
      
   }
   
@@ -37,4 +40,14 @@ nav {
     margin: 100px 100px 200px 200px !important;
     width: 300rem;
   
+  }
+
+  .space{
+    padding-right: 100vh;
+    padding-top: 20vh;
+  }
+
+  .logobot{
+    padding-bottom: 30vh;
+
   }

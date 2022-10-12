@@ -1,8 +1,4 @@
-nav {
-    background: rgb(225, 169, 63);
-  }
-  
-  
+
   .btn {
     background:rgb(225, 169, 63) ;
   }
@@ -11,29 +7,21 @@ nav {
     text-align: center;
   }
   .boton {
-    background: rgb(201, 199, 125);
     border-color: white;
     border-radius: 0.2rem;
   }
-  
-  .img {
-    display: flex;
-    width: 80vh !important;
-    height: 80vh !important;
-    margin: 200px 200px 100px 200px !important;
-    position: absolute !important;
-    right: 10px !important;
+
+  .btn:hover {
+    background-color: orange;
   }
-  
+
   .card{
       display: flex;
-      margin: 100px 0px 0px 0px;
-     
+      margin: 280px 80px 250px 120px;  
   }
   
   .caja {
-  
-      display: flex;
+    display: flex;
     margin: 100px 100px 200px 200px !important;
     width: 300rem;
   
