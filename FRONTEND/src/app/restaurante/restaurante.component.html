@@ -3,12 +3,7 @@
         <h1>Seleccione el menú</h1>
     </div>    
     <div class="MenucardConteaner">
-    <app-book-card></app-book-card>
-    <app-book-card></app-book-card>
-    <app-book-card></app-book-card>
-    <app-book-card></app-book-card>
-    <app-book-card></app-book-card>
-    <app-book-card></app-book-card>
+    <app-book-card *ngFor="let restaurants of restaurant" [restaurants]="restaurants"></app-book-card>
     </div>
     
 </main>
